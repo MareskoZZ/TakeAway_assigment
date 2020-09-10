@@ -1,0 +1,16 @@
+<suite name="task test coverage" verbose="1">
+    <test name="Parameter Test one">
+        <parameter name="udid" value="RF8N12EK7LK" />
+        <parameter name="port" value="4723" />
+        <classes>
+            <class name="tests.SmokeTest">
+                <methods>
+                    <include name="create_task_test" />
+                    <include name="delete_task_test" />
+                    <include name="complete_task_test" />
+                    <include name="several_tasks_advanced_test" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
